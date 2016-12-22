@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /home/pi/XmasPlayer
+if ps ax| grep 'Xma[s]Player.py'
+then 
+   :
+else
+   python XmasPlayer.py
+fi
